@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="outer-box">
+    <header>
+        <h2>Job Application (Web)</h2>
+    </header>
+    <form>
+        <div class="name">
+        <div class="first-name flex-names">
+            <label for="first Name">First Name</label>
+            <input type="text"  id="first name"  placeholder="Enter First Name..."required>
+        </div>
+        <div class="last-name flex-names">
+            <label for="last name">Last Name</label>
+            <input type="text"  id="last name"  placeholder="Enter Last Name..." required>
+        </div>
+    </div>
+    <div class="name">
+        <div class="mail flex-names">
+            <label for="mail">Email</label>
+            <input type="email"  id="mail" placeholder="@gmail.com" required>
+        </div>
+        <div class="job-role flex-names">
+            <label for="job-role">Job Role</label>
+            <select id="job-role" name="job-role">
+                <option value="">select job role</option>
+                <option value="fontend">Frontend Developer</option>
+                <option value="backend">Backend Developer</option>
+                <option value="fullstack">Fullstack Developer</option>
+            </select>
+    </div>
+</div>
+    <div class="address flex-names">
+        <label for="address">Address</label>
+        <textarea clas="textarea" id="address" name="address" row="4" cols="50" placeholder="Enter Address..." required></textarea>
+    </div>
+    <div class="name">
+        <div class="city flex-names">
+        <label for="city">City</label>
+        <input type="text" name="City" id="City" placeholder="Enter City...">
+        
+    </div>
+    <div class="pin flex-names">
+        <label for="pin">PIN Code</label>
+        <input type="num" name="pin" id="pin" placeholder="Enter PIN...">
+    </div>
+    </div>
+
+    <div class="name">
+        <div class="start-date flex-names">
+            <label for="startdate">Start Date</label>
+            <input type="date" name="startdate" id="startdate" required>
+        </div>
+        <div class="cv flex-names">
+            <label for="cv">Upload Your CV</label>
+            <input type="file" name="cv" id="cv" required>
+        </div>
+    </div>
+   
+</form>
+
+<footer>
+    <input type="button" value="Apply Now" class="button">
+</footer>
+    </div>
+    
+</body>
+</html>

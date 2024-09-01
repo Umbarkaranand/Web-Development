@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+  <body class="bg-body-secondary">
+    <div class="container bg-light" style="margin-top: 5rem;">
+        <h1 style="text-align: center;">Image Gallery</h1>
+        <h5>Click on the buttons to filter a category:</h5>
+        <div class="btn-group" role="group" aria-label="Basic outlined example">
+          <button type="button" class="btn btn-outline-primary" onclick="All()" style="width: 6rem;">Show All</button>
+          <button type="button" class="btn btn-outline-primary" onclick="showBike()" style="width: 6rem;">Bikes</button>
+          <button type="button" class="btn btn-outline-primary" onclick="showCar()" style="width: 6rem;">Cars</button>
+          <button type="button" class="btn btn-outline-primary" onclick="showPlane()" style="width: 6rem;">Planes</button>
+        </div>
+        <div class="album py-5 bg-body-tertiary">
+          <div class="container mainContainer">
+      
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col car">
+                <div class="card shadow-sm">
+                  <img src="Images/car1.jpg" alt="" srcset="" width="100%" height="225">
+                  <div class="card-body">
+                    <p class="card-text">2016 Mustang GT, San Francisco, United States
+                      Published on May 17, 2017
+                      Canon, EOS REBEL SL1
+                      Free to use under the Unsplash License</p>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col plane">
+                <div class="card shadow-sm">
+                  <img src="Images/plane2.jpg" alt="" srcset="" width="100%" height="225">
+                  <div class="card-body">
+                    <p class="card-text">Published on February 21, 2017
+                      Free to use under the Unsplash License
+                      .</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col car">
+                <div class="card shadow-sm">
+                  <img src="Images/car2.jpg" alt="" srcset="" width="100%" height="225">
+                  <div class="card-body">
+                    <p class="card-text">Published on November 16, 2018
+                      NIKON CORPORATION, NIKON D7200
+                      Free to use under the Unsplash License</p>
+                    
+                    </div>
+                  </div>
+                </div>
+              <div class="col bike">
+                <div class="card shadow-sm">
+                  <img src="Images/bike1.jpg" alt="" srcset="" width="100%" height="225">
+                  <div class="card-body">
+                    <p class="card-text">
+                      Published on May 27, 2019
+                      Free to use under the Unsplash License.</p>
+                   
+                  </div>
+                </div>
+              </div>
+              <div class="col bike">
+                <div class="card shadow-sm">
+                  <img src="Images/bike2.jpg" alt="" srcset="" width="100%" height="225">
+                  <div class="card-body">
+                    <p class="card-text">Published on December 28, 2020
+                      Canon, EOS 200D
+                      Free to use under the Unsplash License.</p>
+                    
+                </div>
+              </div>
+              </div>
+              <div class="col plane">
+                <div class="card shadow-sm">
+                  <img src="Images/plane1.jpg" alt="" srcset="" width="100%" height="225">
+                  <div class="card-body">
+                    <p class="card-text">Published on February 21, 2017
+                      Free to use under the Unsplash License.</p>
+                    
+                </div>
+              </div>
+              </div>
+              <div class="col bike">
+                <div class="card shadow-sm">
+                  <img src="Images/bike3.jpg" alt="" srcset="" width="100%" height="225">
+                  <div class="card-body">
+                    <p class="card-text">Istanbul, Turkey
+                      Published on February 25, 2019
+                      FUJIFILM, X-T10
+                      Free to use under the Unsplash License</p>
+                   
+                </div>
+              </div>
+             </div>
+              <div class="col car">
+                <div class="card shadow-sm">
+                  <img src="Images/car3.jpg" alt="" srcset="" width="100%" height="225">
+                    <p class="card-text">Singapore
+                      Published on August 26, 2017
+                      OLYMPUS IMAGING CORP., E-M5MarkII
+                      Free to use under the Unsplash License</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div>
+              </div>
+              <div class="col plane">
+                <div class="card shadow-sm">
+                  <img src="Images/plane3.jpg" alt="" srcset="" width="100%" height="225">
+                  <div class="card-body">
+                    <p class="card-text">Published on February 21, 2017
+                      Free to use under the Unsplash License.</p>
+                    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
